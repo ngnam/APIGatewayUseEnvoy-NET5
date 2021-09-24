@@ -5,9 +5,16 @@ VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DA1E50DF-A20C-4CC3-B2DB-75C3D882E943}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeWebAPI", "src\CoffeeWebAPI\CoffeeWebAPI.csproj", "{02C85F5B-07F6-4FF5-A38F-4FB27484F4AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeeWebAPI", "src\CoffeeWebAPI\CoffeeWebAPI.csproj", "{02C85F5B-07F6-4FF5-A38F-4FB27484F4AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeaWebAPI", "src\TeaWebAPI\TeaWebAPI.csproj", "{E107B5AF-00CA-4A62-A29B-305024438E3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeaWebAPI", "src\TeaWebAPI\TeaWebAPI.csproj", "{E107B5AF-00CA-4A62-A29B-305024438E3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A45694BD-752A-4AAA-8794-DE1AE670D592}"
+	ProjectSection(SolutionItems) = preProject
+		README.MD = README.MD
+	EndProjectSection
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{67419167-A4A0-4684-9BAD-5CFAE966A197}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +30,10 @@ Global
 		{E107B5AF-00CA-4A62-A29B-305024438E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E107B5AF-00CA-4A62-A29B-305024438E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E107B5AF-00CA-4A62-A29B-305024438E3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67419167-A4A0-4684-9BAD-5CFAE966A197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67419167-A4A0-4684-9BAD-5CFAE966A197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67419167-A4A0-4684-9BAD-5CFAE966A197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67419167-A4A0-4684-9BAD-5CFAE966A197}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

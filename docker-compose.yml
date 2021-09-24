@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  coffeewebapi:
+    image: ${DOCKER_REGISTRY-}coffeewebapi
+    build:
+      context: .
+      dockerfile: src/CoffeeWebAPI/Dockerfile
+
+  teawebapi:
+    image: ${DOCKER_REGISTRY-}teawebapi
+    build:
+      context: .
+      dockerfile: src/TeaWebAPI/Dockerfile
+
