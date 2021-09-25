@@ -13,4 +13,7 @@
 `
 - Add Docker Compose Setup multicontainer
 
-https://docs.microsoft.com/en-us/visualstudio/containers/tutorial-multicontainer?view=vs-2019
+[multicontainer](https://docs.microsoft.com/en-us/visualstudio/containers/tutorial-multicontainer?view=vs-2019)
+
+- Deploy
+[Deploy Docker compose to Heroku](https://devcenter.heroku.com/articles/local-development-with-docker-compose)
